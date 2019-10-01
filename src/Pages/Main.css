@@ -1,0 +1,36 @@
+.main-form {
+  width: 50%;
+  margin: 70px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(49, 54, 85);
+  padding: 10px;
+}
+
+.main-form h1 {
+  padding: 10px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 375px) {
+  .main-form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-form h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-form h1 {
+    font-size: 18px;
+  }
+}
